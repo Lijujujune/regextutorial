@@ -43,11 +43,12 @@ For example:
 Parentheses () are used to group parts of the regex.
 
 	•	([a-z0-9_\.-]+): The first group matches the username portion of the email.
-    •	@: the one and only @ symbol between username and domain name of an email adress.
+        •	@: the one and only @ symbol between username and domain name of an email adress.
 	•	([\da-z\.-]+): The second group matches the domain name (e.g., gmail,hotmail).
 	•	([a-z\.]{2,6}): The third group matches the top-level domain (e.g., .com or .co.uk).
 
 ### Bracket Expressions
+
 
 ### Character Classes
 
