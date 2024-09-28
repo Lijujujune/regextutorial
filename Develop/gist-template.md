@@ -49,11 +49,19 @@ Parentheses () are used to group parts of the regex.
 
 ### Bracket Expressions
 
+Bracket expressions (character sets) define a range of characters that can match.
+
 	•	[a-z0-9_\.-]: Matches any lowercase letter a-z, any digit 0-9, an underscore _, a dot ., or a hyphen - in the username.
 	•	[\da-z\.-]: Matches any digit \d, any lowercase letter a-z, a dot ., or a hyphen - in the domain name.
 	•	[a-z\.]: Matches any lowercase letter a-z or a dot . in the top-level domain (e.g., .com).
 
 ### Character Classes
+
+Character classes define specific types of characters that can be matched:
+
+	•	\d: d stand for digits, which matches any digit between 0-9.
+ 	•	a-z: stand for any lower letters a-z
+  	•	\.-: stand for literal a dot or a hyphen
 
 ### The OR Operator
 
