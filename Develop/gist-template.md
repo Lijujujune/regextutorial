@@ -23,9 +23,29 @@ This tutorial will be explaining the following regex, which is designed to valid
 
 ### Anchors
 
+	•	^: Ensures that the pattern matches from the start of the string.
+	•	$: Ensures that the pattern matches till the end of the string.
+
+In this regex, ^ and $ ensure that the input must be a complete email address with no extra characters.
+
 ### Quantifiers
 
+Quantifiers specify how many times a character or group should appear.
+
+	•	+: In this regex, the + quantifier means “one or more occurrences” of the preceding character or group.
+
+For example:
+
+	•	[a-z0-9_\.-]+: This part allows one or more of the specified characters to appear in the username section of the email.
+
 ### Grouping Constructs
+
+Parentheses () are used to group parts of the regex.
+
+	•	([a-z0-9_\.-]+): The first group matches the username portion of the email.
+    •	@: the one and only @ symbol between username and domain name of an email adress.
+	•	([\da-z\.-]+): The second group matches the domain name (e.g., gmail,hotmail).
+	•	([a-z\.]{2,6}): The third group matches the top-level domain (e.g., .com or .co.uk).
 
 ### Bracket Expressions
 
