@@ -49,6 +49,9 @@ Parentheses () are used to group parts of the regex.
 
 ### Bracket Expressions
 
+	•	[a-z0-9_\.-]: Matches any lowercase letter a-z, any digit 0-9, an underscore _, a dot ., or a hyphen - in the username.
+	•	[\da-z\.-]: Matches any digit \d, any lowercase letter a-z, a dot ., or a hyphen - in the domain name.
+	•	[a-z\.]: Matches any lowercase letter a-z or a dot . in the top-level domain (e.g., .com).
 
 ### Character Classes
 
