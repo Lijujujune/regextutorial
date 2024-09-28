@@ -1,10 +1,12 @@
-# Title (replace with your title)
+# Title Understanding Regex for Matching an Email Address Example
 
-Introductory paragraph (replace this with your text)
+IIn web development, regex (regular expressions) are crucial tools for validating user input, including email addresses. Whether you are working on a form that requires email input or creating authentication systems, validating email addresses correctly is important. In this tutorial, we will break down a regex pattern used for matching email addresses. By analyzing each component step-by-step, you’ll gain a solid understanding of how this pattern works.
+
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial will be explaining the following regex, which is designed to validate a standard email address:
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
