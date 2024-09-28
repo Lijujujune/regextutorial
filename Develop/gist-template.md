@@ -15,8 +15,6 @@ This tutorial will be explaining the following regex, which is designed to valid
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
-- [Flags](#flags)
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
@@ -63,12 +61,16 @@ Character classes define specific types of characters that can be matched:
  	•	a-z: stand for any lower letters a-z
   	•	\.-: stand for literal a dot or a hyphen
 
-### The OR Operator
-
-### Flags
-
 ### Character Escapes
+
+Certain characters have special meanings than its literal meanings, if you want to match these characters literally rather than special functions, you will need to escape them by a blackslahs (\)
+In this example:
+
+	•	\.: Escapes the dot . character because, in regex, . typically matches any character. By escaping it, that ensure that it matches a literal dot as used in email addresses (e.g., gmail.com).
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
+I’m June Li, a web development learner with a focus on teaching complex concepts in a clear and concise way. If you enjoyed this tutorial, feel free to explore more of my work on my GitHub profile: https://github.com/lijujujune/.
+
+This version updates the tutorial to focus on validating an email address. Let me know if you’d like any further refinements!
